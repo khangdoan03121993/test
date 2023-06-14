@@ -16,7 +16,7 @@ public class DemospringbootApplication {
 	}
 	@GetMapping("/input/{input}")
 	public String data(@PathVariable("input") String input){
-		return "hi " +input + " application";
+		return "hi " +input + " application 12312";
 	}
 
 	public static void main(String[] args) {
