@@ -14,7 +14,7 @@ public class DemospringbootApplication {
 	public String demo(){
 		return "demo by anhnn";
 	}
-	@GetMapping("/{input}")
+	@GetMapping("/input/{input}")
 	public String data(@PathVariable("input") String input){
 		return "hi " +input + " application";
 	}
